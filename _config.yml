@@ -1,0 +1,11 @@
+title: Zakelijk Account
+logo: /assets/img/header.jpg
+slogan: Een pruts Professional ofzo.
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed

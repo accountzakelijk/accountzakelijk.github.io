@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<header class="container mt-5 text-center">
+    <h1 class="header">Moi eem! Ik ben Marc.</h1>
+    <p class="header">Een pruts Professional of zo</p>
+</header>
+<figure class="container mt-5">
+    <img src="/assets/img/DSC00276.jpg" class="rounded-5 mx-auto d-block img-fluid header" alt="Cinque Terre">
+</figure>
+<article class="page mt-5">
+    <h1 class="text-center page-title">{{ page.title }}</h1>
+    {{ content }}
+
+    <h2 class="text-center">Laatste Posts:</h2>
+
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <ul>
+    {% for post in site.posts limit: 5 %}
+    <li><a href="{{ post.url | absolute_url }}">{{ post.date | date: date_format }} - {{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+</article>

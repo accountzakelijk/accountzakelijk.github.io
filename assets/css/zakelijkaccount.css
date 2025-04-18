@@ -1,0 +1,226 @@
+/* DE PRUTS PROFESSIONAL */
+
+/* CONFIG */
+:root {
+    --background-color: #ffffff;
+    --default-color: #333333;
+    --link-color: #0050ef;
+    --link-hover: #b30000;
+    --header-color: #2b3035;
+    --header-hover: #b30000;
+    --small-color: #8e8e8e;
+    --small-hover: #888888;
+    --strong-color: #333333;
+    --strong-hover: #666666;
+    --blockquote-border-color: #666666;
+    --code-color: #8e8e8e;
+    --code-background: #2b3035;
+    --code-border: #c5c5c5;
+    --hr-background-color: #2b3035;
+    --table-border-color: #b30000;
+    --table-color: #2b3035;
+}
+
+/* layout instellingen */
+
+/* MAIN */
+.zz-main {
+    width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+
+    .zz-main {
+        max-width: 540px
+    }
+}
+
+@media (min-width:768px) {
+
+    .zz-main {
+        max-width: 720px
+    }
+}
+
+@media (min-width:992px) {
+
+    .zz-main {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+
+    .zz-main {
+        max-width: 1140px
+    }
+}
+
+@media (min-width:1400px) {
+
+    .zz-main {
+        max-width: 1320px
+    }
+}
+
+.zz-header {
+    margin-top: 20px;
+}
+
+.zz-header IMG {
+    max-width: 100%;
+    border-radius: 32px;
+    filter: drop-shadow(0px 44px 34px rgba(0, 0, 0, 0.25));
+    overflow: hidden;
+}
+
+.zz-social {
+    width: 100%;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width:576px) {
+
+    .zz-social {
+        max-width: 540px
+    }
+}
+
+/* STANDAART HTML AANPASSEN */
+
+body {
+    background-color: var(--background-color);
+    color: var(--default-color);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+A {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+A:link {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+A:hover {
+    text-decoration: none;
+    color: var(--link-hover);
+}
+
+h1,
+h1 A,
+h1 A:link,
+h2,
+h2 A,
+h2 A:link,
+h3,
+h3 A,
+h3 A:link,
+h4,
+h4 A,
+h4 A:link,
+h5,
+h5 A,
+h5 A:link,
+h6,
+h6 A,
+h6 A:link {
+    color: var(--header-color);
+    font-weight: 500;
+}
+
+h1 A:hover,
+h2 A:hover,
+h3 A:hover,
+h4 A:hover,
+h5 A:hover,
+h6 A:hover {
+    color: var(--header-hover);
+}
+
+small,
+small A,
+small A:link {
+    font-size: 11px;
+    color: var(--small-color);
+}
+
+small A:hover {
+    color: var(--small-hover);
+}
+
+strong,
+b,
+strong A,
+strong A:link,
+b A,
+b A:link {
+    color: var(--strong-color);
+    font-weight: 700;
+}
+
+strong A:hover,
+b A:hover {
+    color: var(--strong-hover);
+}
+
+blockquote {
+    border-left: 1px solid var(--blockquote-border-color);
+    margin: 0;
+    padding: 0 0 0 20px;
+    font-style: italic;
+}
+
+code,
+pre {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--code-color);
+}
+
+pre {
+    padding: 8px 15px;
+    background: var(--code-background);
+    border-radius: 5px;
+    border: 1px solid var(--code-border);
+    overflow-x: auto;
+}
+
+hr {
+    background: var(--hr-background-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-bottom: 1px solid var(--table-border-color);
+}
+
+dt {
+    color: var(--table-color);
+    font-weight: 700;
+}
+
+th {
+    color: var(--table-color);
+}

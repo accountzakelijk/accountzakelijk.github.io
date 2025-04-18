@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{%- if page.tumbnail %}
+<figure class="container mt-5">
+    <img src="{{ page.tumbnail }}" class="rounded-5 mx-auto d-block img-fluid header" alt="{{ page.title }}">
+</figure>
+{%- endif %}
+<article class="page mt-5">
+    <h1 class="text-center page-title">{{ page.title }}</h1>
+    {{ content }}
+</article>

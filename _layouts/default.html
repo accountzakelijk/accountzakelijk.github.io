@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="stylesheet" href="{{ " /assets/css/w3.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ " /assets/css/zakelijkaccount.css" | relative_url }}">
+  {% include head-custom.html %}
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  
+<main class="zz-main">
+
+  <header class="zz-header w3-container w3-display-container">
+    <img src="{{ site.logo }}" />
+  </header>
+ 
+
+    {{ content }}
+
+
+    </main>
+</body>
+
+</html>
