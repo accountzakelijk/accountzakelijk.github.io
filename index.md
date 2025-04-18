@@ -1,6 +1,5 @@
 ---
 layout: home
-title: Welcome
 ---
 
 <small>Dit is een test <a href="hallo.html">Hallo</a>
