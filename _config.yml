@@ -1,3 +1,4 @@
+url: https://zakelijkaccount.nl
 title: Zakelijk Account
 logo: /assets/img/header.jpg
 slogan: Een pruts Professional ofzo.
@@ -9,3 +10,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
+
+socials:
+  - name: Youtube
+    link: https://www.youtube.com/@ZakelijkAccount
+    icon: <i class="bi bi-youtube"></i>
+    color: btn-danger
+  - name: Discord
+    link: https://discord.com/invite/3YjF5YyrYJ
+    icon: <i class="bi bi-discord"></i>
+    color: btn-primary 

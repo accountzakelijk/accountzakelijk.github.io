@@ -4,13 +4,13 @@ layout: default
 
 
 
-<div class="zz-social">
+<div class="container-sm mt-5 d-grid gap-3" style="max-width: 540px;">
 
-    <div class="w3-padding">
-        <a href="https://www.youtube.com/@ZakelijkAccount" class="w3-btn w3-crimson w3-xlarge w3-padding-large w3-block w3-round-xxlarge"><i class="bi bi-youtube"></i> Youtube</a>
-    </div>
-    <div class="w3-padding">
-        <a href="https://www.youtube.com/@ZakelijkAccount" class="w3-btn w3-crimson w3-xlarge w3-padding-large w3-block w3-round-xxlarge"><i class="bi bi-youtube"></i> Youtube</a>
-    </div>
+
+    {%- for social in site.socials %}
+
+    <a href="{{ social.link }}" class="btn {{ social.color }} btn-lg btn-lg rounded-5 ">{{ social.icon }} {{ social.name }}</a>
+
+    {%- endfor %}
 
 </div>
