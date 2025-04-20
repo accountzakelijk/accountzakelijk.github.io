@@ -19,4 +19,9 @@ socials:
   - name: Discord
     link: https://mee6.xyz/i/D11iyaNIgP
     icon: <i class="bi bi-discord"></i>
-    color: btn-primary 
+    color: btn-primary
+  - name: Twitch
+    link: https://www.twitch.tv/zakelijk_account
+    icon: <i class="bi bi-twitch"></i>
+    color: btn-primary
+    
